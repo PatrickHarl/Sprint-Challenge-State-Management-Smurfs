@@ -44,9 +44,9 @@ const SmurfForm = (props) => {
     return (
 
         <div>
-            <input onChange={handleChange} placeholder='...name' type='text' name='name' value={newSmurf.name} />
-            <input onChange={handleChange} placeholder='...age' type='text' name='age' value={newSmurf.age}/>
-            <input onChange={handleChange} placeholder='...height' type='text' name='height' value={newSmurf.height}/>
+            <div className='input'><input onChange={handleChange} placeholder='...name' type='text' name='name' value={newSmurf.name} /></div>
+            <div className='input'><input onChange={handleChange} placeholder='...age' type='text' name='age' value={newSmurf.age}/></div>
+            <div className='input'><input onChange={handleChange} placeholder='...height' type='text' name='height' value={newSmurf.height}/></div>
             <button onClick={postSmurf}>Create New Smurf</button>
         </div>
 
