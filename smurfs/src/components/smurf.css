@@ -1,0 +1,26 @@
+.container {
+
+    border:1px solid lightskyblue;
+    padding-bottom:15px;
+    margin-top:20px;
+
+}
+.add-smurf-title {
+
+
+    margin-top:30px;
+
+
+}
+h1 {
+
+    color:white;
+    background-color:blue;
+    padding:10px 0px;
+
+}
+.input {
+
+    margin:10px;
+
+}
